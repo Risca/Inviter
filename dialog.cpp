@@ -1,3 +1,4 @@
+/*
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
@@ -10,15 +11,15 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
-
-#include "dialog.h"
-#include "ui_dialog.h"
 #include <QTcpSocket>
 #include <QLabel>
 #include <QStatusBar>
 #include <QBuffer>
 #include <QImageReader>
+#include "dialog.h"
+#include "ui_dialog.h"
 
 Dialog::Dialog(QWidget *parent) :
     QDialog(parent),
@@ -51,7 +52,7 @@ Dialog::~Dialog()
 void Dialog::connectToHost()
 {
     socket->abort();
-    socket->connectToHost("127-0-0-1.no-ip.org", 1337);
+    socket->connectToHost("127.0.0.1", 1337);
 }
 
 void Dialog::changeEvent(QEvent *e)
