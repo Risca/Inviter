@@ -1,0 +1,25 @@
+Welcome and congratulations on coming this far in the game. This stage
+requires the use of a certain inviter program that you've just downloaded.
+Good luck!
+
+How it's done:
+1. Download Qt SDK from http://qt.nokia.com/downloads
+2. Install
+3. Load the inviter.pro project file
+4. Take a peak at the source (127-0-0-1.no-ip.org is a very attractive host, or so I've heard).
+5. Compile
+6. Run
+7. Enjoy! :D
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
